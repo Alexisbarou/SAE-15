@@ -8,7 +8,7 @@ try:
     with open("C:/Users/alexi/Desktop/SAE 15/fichieratraiter.txt", encoding="utf8") as fh:
         res=fh.read()
 except:
-        print("Le fichier n'existe pas %s", os.path.abspath('test.ics'))
+        print("Le fichier n'existe pas %s", os.path.abspath('fichieratraiter.txt'))
 ress=res.split('\n')
 tableau_evenements=np.array([])
 prog=1 #variable pour faire fonctionner la boucle
